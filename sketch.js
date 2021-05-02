@@ -11,8 +11,9 @@ function setup(){
     engine = Engine.create();
     world = engine.world;
     ground = new Ground(200,540,2000,40);
-    ball= new Ball(850,500,80,80);
+    ball= new Ball(850,450,80,80);
     ball2= new Ball(650,500,80,80);
+    ball3 = new Ball(650,400,80,80);
 
     pig1=new Pig(750,500,70,70);
 
@@ -24,4 +25,5 @@ function draw(){
    ball.display();
    ball2.display();
    pig1.display();
+   ball3.display();
 }
